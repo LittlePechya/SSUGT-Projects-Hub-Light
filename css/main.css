@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  margin-left: 90px;
+}
+.main__left, .main__right {
+  width: 50%;
+}
+.main__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__header {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: var(--bold-font-weight);
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.step {
+  display: flex;
+  gap: 15px;
+}
+.step__number {
+  font-size: 128px;
+  font-weight: var(--bold-font-weight);
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-blue-color);
+  font-size: var(--normal-font-size);
+  font-weight: var(--bold-font-weight);
+  border-radius: var(--border-radius);
+  padding: 37px 29px;
+}
+.info__text {
+  max-width: 70%;
+  color: var(--white);
+}/*# sourceMappingURL=main.css.map */
